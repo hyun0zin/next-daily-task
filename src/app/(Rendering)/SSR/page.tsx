@@ -3,8 +3,9 @@ import React from "react";
 
 function SSRPage() {
   return (
-    <div>
-      <h1>SSR 페이지 렌더링입니다.</h1>
+    <div className="flex flex-col justify-center items-center p-4">
+      <h1 className="bg-indigo-100 ... w-48">SSR 페이지 렌더링입니다.</h1>
+      <br />
       <SSR />
     </div>
   );
